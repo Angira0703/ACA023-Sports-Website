@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;300;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+
+
+
+html{
+ scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    font-family: 'Overpass';
+    font-weight: 600;
+    width: 1400px; 
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://www.kreedon.com/wp-content/uploads/2018/06/saurav-ganguly.jpg");
+}
+
+.navbar{
+    color: white;
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.nav{
+    color: white;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    list-style: none;
+}
+
+
+a{
+    color: #fff;
+    display: flex;
+    margin: 20px;
+    padding: 5px;
+    margin-right: 20px;
+    justify-content: center;
+    list-style: none;
+    font-size: 120%;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover{
+    color:
+    #3293a8
+    ;     
+}
+
+.name{
+    font-family: 'Zilla Slab';
+    text-align: center;
+    font-size: 150%;
+    color: 
+    #3293a8;
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    justify-content: center;
+    list-style: none;
+    font-size: 220%;
+}
+
+.main{
+    font-family: 'Zilla Slab';
+    text-align: center;
+    font-size: 150%;
+    color: 
+    #265db5;
+    margin-top: 150px;
+    display: flex;
+    height: 100vh;
+    margin-top: 150px;
+    justify-content: center;
+    list-style: none;
+    font-size: 320%;
+}
+
+
+
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3293a8;
+    font-size: 200%;
+    
+  }
+  #biography{
+      font-family: 'Overpass';
+      padding: 20px;
+      text-align: left;
+  } 
+
+
+td, th{
+ padding: 12px;
+ background: #f5f5f5;
+ border-collapse: collapse;
+
+}
+
+th{
+  background-color: #e8e8e8;
+  
+}
+
+.info{
+    line-height: 30px;
+}
+
+table{
+    
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+#batting{
+    margin: 25px 10px;
+    text-align: center;
+}
+
+
+.bowling{
+    margin-top: 35px;
+    margin-left: 35px;
+    text-align: center;
+}
+
+.careerInfo{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    font-size: 90%;
+    padding: 20px;
+    line-height: 35px;
+    font-family: 'Overpass';
+    font-weight: 100;
+}
+
+.col1{
+    margin: 0px 50px;
+    color: #265db5;
+}
+
+.h3{
+    margin-top: 40px;
+    font-size: 120%;
+    text-align: center;
+}
+
+::selection{
+    color: #3293a8;
+    background: white;
+}
+
+.large{
+  font-size: 200%;
+}
+
+.awards li{
+    color: black;
+
+    
+    
+}
+
+#achievements{
+   display: flex;  
+   
+}
+.awards{
+    
+    margin: 20px;
+    height: 150px;
+    padding: 0 50px;
+    border: 2px solid #3293a8;
+    border-radius: 0 30px 0 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.awards ul{
+  padding: 10px;
+  
+}
+
+.awards li{
+    padding: 6px;
+    color:black;
+    
+  }
+
+  .border{
+      border-top: 1px solid #3293a8;
+      
+  }
+
+  .awards2{
+    
+    margin: 20px;
+    height: 150px;
+    padding: 0 50px;
+    border: 2px solid #3293a8;
+    border-radius: 30px 0 30px 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.awards2 ul{
+  padding: 10px;
+  
+}
+
+.awards2 li{
+    padding: 6px;
+    color:black;
+    
+  }
+
+  
+
+
+
+

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <link rel="stylesheet" href="style.css">
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+    </head>
+    <body>
+      <section class="homePage">
+        <div class="header">
+          <div class="navbar">
+            <div class="navpart1">
+              <h1 class="name">Sourav Ganguly</h1>
+            </div>
+            <div class="navpart2">
+              <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#biography">Biography</a></li>
+                <li><a href="#batting">Career</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+              </ul>
+            </div>
+          </div>
+          <h1 class="main">Sourav Ganguly</h1>
+        </div>
+
+
+
+            <div id="biography">
+              <h2 class="title">Biography</h2>
+              <p class="info"><span class="large">S</span>ourav Ganguly born 8 July 1972),(affectionately known as Dada; meaning "elder brother" in Bengali), is an Indian cricket administrator, commentator and former national cricket team captain who is the 39th and current president of the Board of Control for Cricket in India (BCCI). He is popularly honoured as Maharaja of Indian Cricket. During his playing career, Ganguly established himself as one of the world's leading batsmen and also one of the most successful captains of the Indian national cricket team. While batting, he was especially prolific through the off side, earning himself the nickname God of the Off Side for his elegant stroke play square of the wicket and through the covers.
+              <br>
+                As a cricketer he played as a left-handed opening batsman and was captain of the Indian national team. He was elected as a president of the BCCI in 2019 and President of the Editorial Board with Wisden India. Before being elected as the President of BCCI, he was the President of Cricket Association of Bengal, governing body for cricket in West Bengal, India.
+
+                Ganguly was introduced into the world of cricket by his elder brother, Snehasish. He started his career by playing in state and school teams. After playing in different Indian domestic tournaments, such as the Ranji and Duleep trophies, Ganguly got his big-break while playing for India on their tour of England. He scored 131 runs and cemented his place in the Indian team. Ganguly's place in the team was assured after successful performances in series against Sri Lanka, Pakistan and Australia, winning the Man of the Match awards. In the 1999 Cricket World Cup, he was involved in a partnership of 318 runs with Rahul Dravid, which remains the highest overall partnership score in the World Cup tournament history.
+
+                <br>
+                Ganguly holds a special place in Indian cricket history. His captaincy tenure has got to be one of the most chronicled ones in recent times. More than his proficiency on the off side, his prolific partnership with Sachin in ODIs, his run in with Greg Chappell etc it is his role as a captain in shaping up a young team for which he is most remembered. He took over at a tumultuous time in the wake of the match fixing saga and, along with the likes of Rahul Dravid, Sachin Tendulkar and Anil Kumble, forged a team that was formidable at home and more than competitive overseas. His relationship with John Wright, India's first foreign coach proved to be the catalyst for India's admirable show in away tours. Ganguly emphasised on the need to be fearless and he led by example in this aspect. His actions were backed with performances on the field too. He finished his career as India's most successful captain and led India to a World Cup final too in 2003.
+
+                
+              </p>
+              <h3 id="batting"> Batting Career Summary</h3>
+              <table id="batting-table">
+                <th>Name</th>
+                <th>M</th>
+                <th>Inn</th>
+                <th>No</th>
+                <th>Runs</th>
+                <th>HS</th>
+                <th>Avg</th>
+                <th>BF</th>
+                <th>SR</th>
+                <th>100</th>
+                <th>200</th>
+                <th>50</th>
+                <th>4s</th>
+                <th>6s</th>
+
+                <tr>
+                  <td>Test</td>
+                  <td>113</td>
+                  <td>188</td>
+                  <td>17</td>
+                  <td>7212</td>
+                  <td>239</td>
+                  <td>42.18</td>
+                  <td>14070</td>
+                  <td>51.26</td>
+                  <td>16</td>
+                  <td>1</td>
+                  <td>35</td>
+                  <td>900</td>
+                  <td>57</td>
+                </tr>
+
+                <tr class="two">
+                  <td>ODI</td>
+                  <td>311</td>
+                  <td>300</td>
+                  <td>21</td>
+                  <td>11363</td>
+                  <td>183</td>
+                  <td>40.73</td>
+                  <td>15416</td>
+                  <td>73.71</td>
+                  <td>22</td>
+                  <td>0</td>
+                  <td>72</td>
+                  <td>1122</td>
+                  <td>190</td>
+                </tr>
+
+                <tr>
+                  <td>IPL</td>
+                  <td>59</td>
+                  <td>56</td>
+                  <td>3</td>
+                  <td>1349</td>
+                  <td>91</td>
+                  <td>25.45</td>
+                  <td>1263</td>
+                  <td>106.81</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>7</td>
+                  <td>137</td>
+                  <td>42</td>
+                </tr>
+              </table>
+
+
+              <h3 class="bowling">Bowling Career Summary</h3>
+
+              <table>
+                <th>Name</th>
+                <th>M</th>
+                <th>Inn</th>
+                <th>B</th>
+                <th>Runs</th>
+                <th>Wkts</th>
+                <th>BBI</th>
+                <th>BBM</th>
+                <th>Econ</th>
+                <th>Avg</th>
+                <th>SR</th>
+                <th>5W</th>
+                <th>10W</th>
+
+                <tr>
+                  <td>Test</td>
+                  <td>113</td>
+                  <td>99</td>
+                  <td>3117</td>
+                  <td>1681</td>
+                  <td>32</td>
+                  <td>3/28</td>
+                  <td>3/37</td>
+                  <td>3.24</td>
+                  <td>52.53</td>
+                  <td>97.41</td>
+                  <td>0</td>
+                  <td>0</td>
+                  
+                </tr>
+
+                <tr class="two">
+                  <td>ODI</td>
+                  <td>311</td>
+                  <td>171</td>
+                  <td>4561</td>
+                  <td>3849</td>
+                  <td>100</td>
+                  <td>5/16</td>
+                  <td>5/16</td>
+                  <td>5.06</td>
+                  <td>38.49</td>
+                  <td>45.61</td>
+                  <td>2</td>
+                  <td>0</td>
+                  
+                </tr>
+
+                <tr>
+                  <td>IPL</td>
+                  <td>59</td>
+                  <td>20</td>
+                  <td>276</td>
+                  <td>363</td>
+                  <td>10</td>
+                  <td>2/21</td>
+                  <td>2/21</td>
+                  <td>7.89</td>
+                  <td>36.3</td>
+                  <td>27.6</td>
+                  <td>0</td>
+                  <td>0</td>
+                  
+                </tr>
+              </table>
+              <h3 class="h3">Career Info</h3>
+              <div class="careerInfo">
+                
+                <div class="col1">
+                  <h3>Test Debut</h3>
+                  <h3>Last Test</h3>
+                  <h3>ODI Debut</h3>
+                  <h3>Last ODI</h3>
+                  <h3>IPL Debut</h3>
+                  <h3>Last IPL</h3>
+                </div>
+                <div class="col2">
+                  <h3>vs England at Lord's, Jun 20, 1996</h3>
+                  <h3>vs Australia at Vidarbha Cricket Association Stadium, Nov 06, 2008</h3>
+                  <h3>vs West Indies at The Gabba, Jan 11, 1992</h3>
+                  <h3>vs Pakistan at Captain Roop Singh Stadium, Nov 15, 2007</h3>
+                  <h3>vs Royal Challengers Bangalore at M.Chinnaswamy Stadium, Apr 18, 2008</h3>
+                  <h3>vs Kolkata Knight Riders at Maharashtra Cricket Association Stadium, May 19, 2012</h3>
+                </div>
+              </div>
+             
+
+              <h2 class="title">Achievements</h2>
+            <div id="achievements">
+              
+              <div class="row1">
+                <div class="awards">
+                  <ul>
+                    <li>The only cricketer to win four consecutive man of the match awards in One Day Internationals.</li>
+                    <li class="border">The ninth highest run-scorer in ODI history and third among the Indians, with 11,363 runs.</li>
+                  </ul>
+                </div>
+                <div class="awards">
+                  <ul>
+                    <li>He holds the record for registering the highest individual score by any batsman in an ICC Champions Trophy final(117)</li>
+                    <li class="border">He was also the first player to score 3 centuries in the history of ICC Champions Trophy</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="row3">
+                <div class="awards2">
+                  <ul>
+                    <li>The second fastest batsman to reach 9,000 ODI runs after AB De Villiers of South Africa who broke Ganguly's record in 2017</li>
+                    <li class="border">One of the only six cricketers to have achieved the unique treble of 10,000 runs, 100 wickets & 100 catches in ODI cricket.</li>
+                  </ul>
+                </div>
+                <div class="awards2">
+                  <ul>
+                    <li>His Test batting average never went below 40.</li>
+                    <li class="border">Has the highest individual score by an Indian batsman (183) in the Cricket World Cup.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+            </div>  
+
+        
+      </section>  
+    </body>
+</html>
